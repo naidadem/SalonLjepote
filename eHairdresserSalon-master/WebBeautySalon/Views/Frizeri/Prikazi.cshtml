@@ -1,0 +1,39 @@
+﻿@model IEnumerable<eHairdresserSalon_API.Models.Frizeri_Result>
+
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>Prikazi</title>
+</head>
+<body>
+    <ul>
+        @foreach (var item in Model)
+        {
+            <li>
+                @item.
+            </li>
+            <li>
+                @item.KorisnickoIme
+            </li>
+            <li>
+                @item.Opis
+            </li>
+            <li>
+                @item.ProsjecnaOcjena
+            </li>
+            <li>
+                @item.TretmanOcjena
+            </li>
+            <li>
+                @item.VrstaUsluge
+            </li>
+        }
+    </ul>
+</body>
+</html>
