@@ -12,7 +12,7 @@ namespace eHairdresserSalon_API.Controllers
     public class FrizeriController : ApiController
     {
         private FrizerskiSalonEntities dm = new FrizerskiSalonEntities();
-
+        //naida
         [HttpGet]
         public List<Frizeri_Result> GetFrizeri()
         {
