@@ -1,0 +1,51 @@
+﻿@model IEnumerable<WebApplication.Models.DodatniTretmani>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Dodavanje ", "Create" , null, new { @class="create-button"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.NazivTretmana)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Cijena)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Opis)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.VrsteUsluga.Naziv)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.NazivTretmana)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Cijena)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Opis)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.VrsteUsluga.Naziv)
+        </td>
+        <td>
+            @Html.ActionLink("Izmjeni", "Edit", new { id = item.TretmanID } , new { @class="edit-button" }) 
+            @Html.ActionLink("Vidi više", "Details", new { id=item.TretmanID }, new { @class = "details-button" }) 
+            @Html.ActionLink("Obriši", "Delete", new { id=item.TretmanID }, new { @class = "delete-button" })
+        </td>
+    </tr>
+}
+
+</table>

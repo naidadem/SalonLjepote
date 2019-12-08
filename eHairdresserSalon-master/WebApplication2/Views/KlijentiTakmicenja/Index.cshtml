@@ -1,0 +1,45 @@
+﻿@model IEnumerable<WebApplication.Models.KlijentiTakmicenja>
+
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+<p>
+    @Html.ActionLink("Dodavanje ", "Create" , null, new { @class="create-button"})
+</p>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.DatumPrijave)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Klijenti.Ime)
+        </th>
+        <th>
+            @Html.DisplayNameFor(model => model.Takmicenja.Naziv)
+        </th>
+        <th></th>
+    </tr>
+
+@foreach (var item in Model) {
+    <tr>
+        <td>
+            @Html.DisplayFor(modelItem => item.DatumPrijave)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Klijenti.Ime)
+        </td>
+        <td>
+            @Html.DisplayFor(modelItem => item.Takmicenja.Naziv)
+        </td>
+        <td>
+            @Html.ActionLink("Izmjeni", "Edit", new { /* id=item.PrimaryKey */ }, new { @class = "edit-button" }) 
+            @Html.ActionLink("Vidi više", "Details", new { /* id=item.PrimaryKey */ }, new { @class = "details-button" }) 
+            @Html.ActionLink("Obriši", "Delete", new { /* id=item.PrimaryKey */ }, new { @class = "delete-button" })
+        </td>
+    </tr>
+}
+
+</table>

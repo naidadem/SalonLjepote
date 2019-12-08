@@ -1,0 +1,98 @@
+﻿@model WebApplication.Models.Termini
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Termini</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Datum)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Datum)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Vrijeme)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Vrijeme)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Zauzeto)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Zauzeto)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OcijenjenaUsluga)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OcijenjenaUsluga)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.OcijenjenTretman)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.OcijenjenTretman)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.prosaoTermin)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.prosaoTermin)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.DodatniTretmani.NazivTretmana)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.DodatniTretmani.NazivTretmana)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frizeri.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frizeri.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Klijenti.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Klijenti.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usluge.NazivUsluge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usluge.NazivUsluge)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Izmjeni", "Edit", new { id = Model.TerminID }, new { @class = "edit-button" }) 
+    @Html.ActionLink("Povratak na listu", "Index" , null, new { @class="back-button"})
+</p>

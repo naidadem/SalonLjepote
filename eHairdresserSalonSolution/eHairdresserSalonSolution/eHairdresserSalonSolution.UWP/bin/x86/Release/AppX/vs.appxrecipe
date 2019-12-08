@@ -1,0 +1,357 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Machine>SE5CD9204MJ6</Machine>
+    <WindowsUser>SEDEMIROVICN</WindowsUser>
+    <TargetPlatformIdentifier>UAP</TargetPlatformIdentifier>
+    <TargetOsVersion>10.0</TargetOsVersion>
+    <TargetOsDescription>Windows 10.0</TargetOsDescription>
+    <SolutionConfiguration>Release|x86</SolutionConfiguration>
+    <PackageArchitecture>x86</PackageArchitecture>
+    <PackageIdentityName>ec0cc741-fd3e-485c-81be-68815c480690</PackageIdentityName>
+    <PackageIdentityPublisher>CN=7acb7195-32fc-45a8-9d78-c0b269779f1e</PackageIdentityPublisher>
+    <IntermediateOutputPath>C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\obj\x86\Release\</IntermediateOutputPath>
+    <RemoteDeploymentType>
+    </RemoteDeploymentType>
+    <PackageRegistrationPath>
+    </PackageRegistrationPath>
+    <RemoveNonLayoutFiles>true</RemoveNonLayoutFiles>
+    <DeployOptionalPackages>false</DeployOptionalPackages>
+    <WindowsSdkPath>C:\Program Files %28x86%29\Windows Kits\10\</WindowsSdkPath>
+    <LayoutDir>C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\AppX</LayoutDir>
+    <RegisteredManifestChecksum>7FC7ED4202EF3FDDFF7FA1EA49AAAD9F5A3FCE50527A562B3D907021F5152FEF</RegisteredManifestChecksum>
+    <RegisteredPackageMoniker>7f2667bd-f5e7-490a-b14f-e25cae689626_1.0.0.0_x86__vzp9w6n6mq7w0</RegisteredPackageMoniker>
+    <RegisteredUserModeAppID>7f2667bd-f5e7-490a-b14f-e25cae689626_vzp9w6n6mq7w0!App</RegisteredUserModeAppID>
+    <RegisteredPackageID>7f2667bd-f5e7-490a-b14f-e25cae689626</RegisteredPackageID>
+    <RegisteredPackagePublisher>CN=7acb7195-32fc-45a8-9d78-c0b269779f1e</RegisteredPackagePublisher>
+    <RegisteredVersion>1.0.0.0</RegisteredVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <AppXManifest Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\AppxManifest.xml">
+      <PackagePath>AppxManifest.xml</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-11-19T08:34:16.836</Modified>
+    </AppXManifest>
+  </ItemGroup>
+  <ItemGroup>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-100.png">
+      <PackagePath>Assets\LargeTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.543</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-200.png">
+      <PackagePath>Assets\LargeTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.549</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\LargeTile.scale-400.png">
+      <PackagePath>Assets\LargeTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.557</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-100.png">
+      <PackagePath>Assets\SmallTile.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.564</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-200.png">
+      <PackagePath>Assets\SmallTile.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.568</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\SmallTile.scale-400.png">
+      <PackagePath>Assets\SmallTile.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.588</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-100.png">
+      <PackagePath>Assets\SplashScreen.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.594</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-200.png">
+      <PackagePath>Assets\SplashScreen.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.599</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\SplashScreen.scale-400.png">
+      <PackagePath>Assets\SplashScreen.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.613</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-100.png">
+      <PackagePath>Assets\Square150x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.617</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-200.png">
+      <PackagePath>Assets\Square150x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.622</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square150x150Logo.scale-400.png">
+      <PackagePath>Assets\Square150x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.629</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.637</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.642</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.altform-unplated_targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.altform-unplated_targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.646</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-100.png">
+      <PackagePath>Assets\Square44x44Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.653</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-200.png">
+      <PackagePath>Assets\Square44x44Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.658</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.scale-400.png">
+      <PackagePath>Assets\Square44x44Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.663</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-16.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-16.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.668</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-256.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-256.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.678</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Square44x44Logo.targetsize-48.png">
+      <PackagePath>Assets\Square44x44Logo.targetsize-48.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.684</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-100.png">
+      <PackagePath>Assets\StoreLogo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.701</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-200.png">
+      <PackagePath>Assets\StoreLogo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.706</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\StoreLogo.scale-400.png">
+      <PackagePath>Assets\StoreLogo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.713</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-100.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-100.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.717</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-200.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-200.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.729</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Assets\Wide310x150Logo.scale-400.png">
+      <PackagePath>Assets\Wide310x150Logo.scale-400.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
+      <Modified>2019-02-01T15:59:42.734</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\clrcompression.dll">
+      <PackagePath>clrcompression.dll</PackagePath>
+      <Modified>2017-09-30T18:25:58.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\eHairdresserSalonSolution.UWP.dll">
+      <PackagePath>eHairdresserSalonSolution.UWP.dll</PackagePath>
+      <Modified>2019-11-19T08:34:14.919</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\eHairdresserSalonSolution.UWP.exe">
+      <PackagePath>eHairdresserSalonSolution.UWP.exe</PackagePath>
+      <Modified>2019-11-19T08:34:16.774</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\eHairdresserSalonSolution.UWP.pdb">
+      <PackagePath>eHairdresserSalonSolution.UWP.pdb</PackagePath>
+      <Modified>2019-11-19T08:34:16.745</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\eHairdresserSalon_PCL.dll.config">
+      <PackagePath>eHairdresserSalon_PCL.dll.config</PackagePath>
+      <Modified>2019-02-19T17:33:30.638</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\mojaTakmicenja.png">
+      <PackagePath>mojaTakmicenja.png</PackagePath>
+      <Modified>2019-02-24T01:09:50.860</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\mojiTermini.png">
+      <PackagePath>mojiTermini.png</PackagePath>
+      <Modified>2019-02-22T17:58:44.294</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\odjaviSE.png">
+      <PackagePath>odjaviSE.png</PackagePath>
+      <Modified>2019-02-22T17:58:44.306</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\pregledFrizera.png">
+      <PackagePath>pregledFrizera.png</PackagePath>
+      <Modified>2019-02-22T17:58:44.320</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\pregledTakmicenja.png">
+      <PackagePath>pregledTakmicenja.png</PackagePath>
+      <Modified>2019-02-23T17:35:14.446</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\pregledTermina.png">
+      <PackagePath>pregledTermina.png</PackagePath>
+      <Modified>2019-02-22T17:58:44.333</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\pregledTretmana.png">
+      <PackagePath>pregledTretmana.png</PackagePath>
+      <Modified>2019-03-02T14:46:01.296</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\resources.pri">
+      <PackagePath>resources.pri</PackagePath>
+      <Modified>2019-11-19T08:32:30.342</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\AutoSuggestStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\AutoSuggestStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsCommandBarStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsCommandBarStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsEmbeddedPageWrapper.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsEmbeddedPageWrapper.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsFlyout.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsFlyout.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsProgressBarStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsProgressBarStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\FormsTextBoxStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\FormsTextBoxStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\MasterDetailControlStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\MasterDetailControlStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\PageControlStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\PageControlStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\Resources.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\Resources.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Naida\eHairdresserSalonSolution\eHairdresserSalonSolution\eHairdresserSalonSolution.UWP\bin\x86\Release\ilc\Xamarin.Forms.Platform.UAP\TabbedPageStyle.xbf">
+      <PackagePath>Xamarin.Forms.Platform.UAP\TabbedPageStyle.xbf</PackagePath>
+      <Modified>2018-06-08T05:48:30.000</Modified>
+    </AppxPackagedFile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResolvedSDKReference Include="C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.sharedlibrary-x86\2.0.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.0.appx">
+      <Name>Microsoft.NET.Native.Framework.2.0</Name>
+      <Version>2.0.25709.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.0, MinVersion = 2.0.25709.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.sharedlibrary-x86\2.0.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.sharedlibrary-x64\2.0.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.0.appx">
+      <Name>Microsoft.NET.Native.Framework.2.0</Name>
+      <Version>2.0.25709.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.0, MinVersion = 2.0.25709.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.sharedlibrary-x64\2.0.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.sharedlibrary-arm\2.0.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.0.appx">
+      <Name>Microsoft.NET.Native.Framework.2.0</Name>
+      <Version>2.0.25709.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Framework.2.0, MinVersion = 2.0.25709.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.sharedlibrary-arm\2.0.0\build\..\tools\SharedLibrary\ret\Native\Microsoft.NET.Native.Framework.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.compiler\2.0.0\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.0.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.0</Name>
+      <Version>2.0.25709.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.0, MinVersion = 2.0.25709.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.compiler\2.0.0\build\..\tools\Runtime\x86\Microsoft.NET.Native.Runtime.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.compiler\2.0.0\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.0.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.0</Name>
+      <Version>2.0.25709.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.0, MinVersion = 2.0.25709.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.compiler\2.0.0\build\..\tools\Runtime\x64\Microsoft.NET.Native.Runtime.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.compiler\2.0.0\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.0.appx">
+      <Name>Microsoft.NET.Native.Runtime.2.0</Name>
+      <Version>2.0.25709.0</Version>
+      <Architecture>arm</Architecture>
+      <FrameworkIdentity>Name = Microsoft.NET.Native.Runtime.2.0, MinVersion = 2.0.25709.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Users\SEDEMIROVICN\.nuget\packages\microsoft.net.native.compiler\2.0.0\build\..\tools\Runtime\arm\Microsoft.NET.Native.Runtime.2.0.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM\Microsoft.VCLibs.ARM.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>ARM64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\ARM64\Microsoft.VCLibs.ARM64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x64</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x64\Microsoft.VCLibs.x64.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+    <ResolvedSDKReference Include="C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\">
+      <Name>Microsoft.VCLibs.140.00</Name>
+      <Version>14.0.27323.0</Version>
+      <Architecture>x86</Architecture>
+      <FrameworkIdentity>Name = Microsoft.VCLibs.140.00, MinVersion = 14.0.27323.0, Publisher = %27CN=Microsoft Corporation, O=Microsoft Corporation, L=Redmond, S=Washington, C=US%27</FrameworkIdentity>
+      <AppxLocation>C:\Program Files %28x86%29\Microsoft SDKs\Windows Kits\10\ExtensionSDKs\Microsoft.VCLibs\14.0\.\AppX\Retail\x86\Microsoft.VCLibs.x86.14.00.appx</AppxLocation>
+      <MoreInfo>
+      </MoreInfo>
+    </ResolvedSDKReference>
+  </ItemGroup>
+</Project>

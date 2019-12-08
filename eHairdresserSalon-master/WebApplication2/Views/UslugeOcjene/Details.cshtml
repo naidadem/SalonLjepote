@@ -1,0 +1,58 @@
+﻿@model WebApplication.Models.UslugeOcjene
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>UslugeOcjene</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.Ocjena)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Ocjena)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Frizeri.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Frizeri.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Klijenti.Ime)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Klijenti.Ime)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Termini.TerminID)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Termini.TerminID)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Usluge.NazivUsluge)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Usluge.NazivUsluge)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Izmjeni", "Edit", new { id = Model.UslugaOcjenaID }, new { @class = "edit-button" }) 
+    @Html.ActionLink("Povratak na listu", "Index" , null, new { @class="back-button"})
+</p>

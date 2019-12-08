@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="ff32481a014a4e2493dd6c0f145439b3" Name="Diagram1">
+        <EntityTypeShape EntityType="FrizerskiSalonModel.DodatniTretmani" Width="1.5" PointX="0.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.DodatniTretmaniOcjene" Width="1.5" PointX="3" PointY="8.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Frizeri" Width="1.5" PointX="0.75" PointY="18.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Klijenti" Width="1.5" PointX="0.75" PointY="7.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.KlijentiNagrade" Width="1.5" PointX="3" PointY="5.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.KlijentiTakmicenja" Width="1.5" PointX="3" PointY="11.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Nagrade" Width="1.5" PointX="0.75" PointY="4.5" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Skladiste" Width="1.5" PointX="3" PointY="17.625" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Takmicenja" Width="1.5" PointX="0.75" PointY="23.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Termini" Width="1.5" PointX="6" PointY="7.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.Usluge" Width="1.5" PointX="3.75" PointY="1.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.UslugeOcjene" Width="1.5" PointX="8.25" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="FrizerskiSalonModel.VrsteUsluga" Width="1.5" PointX="1.5" PointY="14.875" IsExpanded="true" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__DodatniTr__Tretm__403A8C7D" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__Termini__Tretman__49C3F6B7" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_Skladiste_Tretmani" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_VrstaUslugeDT" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__DodatniTr__Frize__3E52440B" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__DodatniTr__Klije__3F466844" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__Takmicenj__Frize__46E78A0C" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__Termini__FrizerI__47DBAE45" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__UslugeOcj__Frize__4D94879B" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_VrtseUsluga_Frizeri" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__Termini__Klijent__48CFD27E" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__UslugeOcj__Klije__4E88ABD4" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_KlijentiNagrade_Klijenti" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_KlijentiTakmicenja_Klijenti" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_KlijentiNagrade_Nagrade" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_KlijentiTakmicenja_Takmicenja" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__Termini__UslugaI__4AB81AF0" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_UslugeOcjene_Termini" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK__UslugeOcj__Uslug__4F7CD00D" ManuallyRouted="false" />
+        <AssociationConnector Association="FrizerskiSalonModel.FK_VrstaUsluge" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>
