@@ -22,6 +22,7 @@ namespace eHairdresserSalonSolution
         private WebAPIHelper dodatniTretmaniService = new WebAPIHelper(Global.APIAddress, Global.DodatniTretmaniRoute);
         private WebAPIHelper klijentiService = new WebAPIHelper(Global.APIAddress, Global.klijentiRoute);
         private WebAPIHelper vrsteUslugaService = new WebAPIHelper(Global.APIAddress, Global.VrsteUslugaRoute);
+        private WebAPIHelper nagradeService = new WebAPIHelper(Global.APIAddress, Global.NagradeRoute);
 
 
         public PregledTermina(string tretmanID, int vrstaUslugeId)
@@ -330,6 +331,7 @@ namespace eHairdresserSalonSolution
                         else
                             termin.TretmanID = (dodatniTretmaniPicker.SelectedItem as DodatniTretmani_Result).TretmanID;
 
+
                         HttpResponseMessage responseTerminPut = terminiService.PutResponse(termin.TerminID, termin);
                         if (responseTerminPut.IsSuccessStatusCode)
                         {
@@ -339,6 +341,20 @@ namespace eHairdresserSalonSolution
 
                             logirani.TerminiCount++;
                             HttpResponseMessage responsePutKlijent = klijentiService.PutResponse(logirani.KlijentID, logirani);
+
+                            HttpResponseMessage responseUsluga = uslugeService.GetResponse(termin.UslugaID.ToString());
+                            var jsonObject2 = responseUsluga.Content.ReadAsStringAsync();
+                            Usluge uk = JsonConvert.DeserializeObject<Usluge>(jsonObject2.Result);
+
+                            HttpResponseMessage responseNagrade = nagradeService.GetActionResponse("GetPrice", termin.Datum.Date.ToLocalTime().ToString("yyyy-MM-dd"), termin.KlijentID.ToString(), uk.CijenaUsluge.ToString());
+                            if (responseNagrade.IsSuccessStatusCode)
+                            {
+                                var jsonObject3 = responseNagrade.Content.ReadAsStringAsync();
+                                Nagrade_Result2 odgovor = JsonConvert.DeserializeObject<Nagrade_Result2>(jsonObject3.Result);
+
+                                if (odgovor.SumaCijenaUsluga.Value >= 100)
+                                    DisplayAlert("Nagrada", "Ucestujete u nasoj sedmicnoj nagradi. Izvlacenje u petak.", "OK");
+                            }
                         }
 
                     }

@@ -64,12 +64,14 @@
     <Compile Include="Model\Frizeri_Result.cs" />
     <Compile Include="Model\Klijenti.cs" />
     <Compile Include="Model\KlijentiTakmicenja.cs" />
+    <Compile Include="Model\Nagrade_Result2.cs" />
     <Compile Include="Model\Takmicenja.cs" />
     <Compile Include="Model\Takmicenja_Result.cs" />
     <Compile Include="Model\Termini.cs" />
     <Compile Include="Model\Termini_Result.cs" />
     <Compile Include="Model\Termini_Result2.cs" />
     <Compile Include="Model\Termini_Result3.cs" />
+    <Compile Include="Model\Usluge.cs" />
     <Compile Include="Model\UslugeOcjene.cs" />
     <Compile Include="Model\Usluge_Result.cs" />
     <Compile Include="Model\VrsteUsluga_Result.cs" />

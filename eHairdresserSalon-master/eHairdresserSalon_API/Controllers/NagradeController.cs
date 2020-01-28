@@ -1,6 +1,7 @@
 ﻿using eHairdresserSalon_API.Models;
 using System;
 using System.Collections.Generic;
+using System.Globalization;
 using System.Linq;
 using System.Net;
 using System.Net.Http;
@@ -28,6 +29,19 @@ namespace eHairdresserSalon_API.Controllers
             return dm.Nagrade.Where(x => x.NagradaID == nID).FirstOrDefault();
         }
 
+        [HttpGet]
+        //[ResponseType(typeof(Nagrade_Result2))]
+        [Route("api/Nagrade/GetPrice/{datum}/{klijentId}/{cijenaUsluge}")]
+        public Nagrade_Result2 GetPrice(string datum, string klijentId, string cijenaUsluge)
+        {
+            DateTime date = Convert.ToDateTime(datum);
+            //date.AddDays(1);
+            int kID = Convert.ToInt32(klijentId);
+            //decimal cu = Convert.ToDecimal(cijenaUsluge);
+            decimal cu = decimal.Parse(cijenaUsluge, CultureInfo.InvariantCulture);
+
+            return dm.esp_Termini_GetServicesPrice(date, kID, cu).FirstOrDefault();
+        }
 
         [HttpGet]
         [Route("api/Nagrade/SearchByName/{name?}")]
